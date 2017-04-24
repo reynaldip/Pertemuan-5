@@ -1,0 +1,23 @@
+#include <iostream> // Define iostream
+using namespace std; // menggunakan std
+int main()
+{
+
+    int no_kom ;
+    char Nama [100] ;
+    int Lama ;
+    float Total ;
+
+    cout << "No Komputer :" ;
+    cin >> no_kom ;//membaca inputan dari keyboar
+    cout << "Nama Pemakai : ";
+    cin >> Nama;//membaca inputan dari keyboard
+    cout << "Lama Pakai : ";
+    cin >> Lama ;//membaca inputan dari keyboard
+
+ Total=Lama*4000;
+
+ cout<<"Total Tagihan :"<<Total<<endl;
+   return 0;
+
+}
