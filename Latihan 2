@@ -1,0 +1,33 @@
+#include <iostream> // Define iostream
+using namespace std; // menggunakan std
+int main()
+{
+
+    int no_kom ;
+    char Nama [100] ;
+    int Lama ;
+    float Total ;
+    float Total_tag;
+    long disc;
+
+    cout << "No Komputer :" ;
+    cin >> no_kom ;//membaca inputan dari keyboar
+    cout << "Nama Pemakai : ";
+    cin >> Nama;//membaca inputan dari keyboard
+    cout << "Lama Pakai : ";
+    cin >> Lama ;//membaca inputan dari keyboard
+
+ Total=Lama*4000;
+    if (Lama>5){
+        disc = 0.1 * Total;
+        Total_tag= Total - disc;
+}
+ cout<<"Total Tagihan :"<<Total_tag<<endl;
+
+   return 0;
+
+}
+
+
+
+note: di-discount jika lama pakai lebih dari 5 jam
