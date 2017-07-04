@@ -9,7 +9,7 @@ int main()
     float Total ;
 
     cout << "No Komputer :" ;
-    cin >> no_kom ;//membaca inputan dari keyboar
+    cin >> no_kom ;//membaca inputan dari keyboard
     cout << "Nama Pemakai : ";
     cin >> Nama;//membaca inputan dari keyboard
     cout << "Lama Pakai : ";
